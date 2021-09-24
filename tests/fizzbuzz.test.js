@@ -1,14 +1,9 @@
 const fizzBuzz = require('../fizzbuzz');
 
 
-/*
------TESTING 3-----
-*/
+/*-----TESTING 3-----*/
 test("3 should return FIZZ", () => {
     let result = fizzBuzz(3);
-
-    // expect and toBe come with Jest
-    // tells what the answer should be
     expect(result).toBe("FIZZ");
 });
 
@@ -20,9 +15,7 @@ test("6 should return FIZZ", () => {
 
 
 
-/*
------TESTING 5-----
-*/
+/*-----TESTING 5-----*/
 test("10 should return BUZZ", () => {
     let result = fizzBuzz(10);
     expect(result).toBe("BUZZ");
@@ -36,9 +29,7 @@ test("10 should return BUZZ", () => {
 
 
 
-/*
------TESTING 3 & 5-----
-*/
+/*-----TESTING 3 & 5-----*/
 test("15 should return FIZZBUZZ", () => {
     let result = fizzBuzz(15);
     expect(result).toBe("FIZZBUZZ");
@@ -52,9 +43,7 @@ test("30 should return FIZZBUZZ", () => {
 
 
 
-/*
------TESTING null-----
-*/
+/*-----TESTING null-----*/
 test("7 should return null", () => {
     let result = fizzBuzz(7);
     expect(result).toBe(null);
