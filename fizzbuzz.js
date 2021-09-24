@@ -7,13 +7,27 @@ Otherwise, return null.
 */
 
 function fizzBuzz(number){
-    if(number % 3 === 0) {
-        return "FIZZ";
+    if (number % 3 === 0 && number % 5 === 0) {
+        return "FIZZBUZZ"
+    } else if(number % 3 === 0) {
+        return "FIZZ"; 
+    } else if (number % 5 === 0) {
+        return "BUZZ";
+    } else {
+        return null;
     }
 }
 
 console.log('3 should return FIZZ', fizzBuzz(3));
 console.log('3 should return FIZZ', fizzBuzz(36));
+console.log('15 should return FIZZBUZZ', fizzBuzz(15));
+
+
+
+
+
 
 
 module.exports = fizzBuzz;
+
+
