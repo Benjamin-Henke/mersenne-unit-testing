@@ -16,11 +16,9 @@ function fizzBuzz(number){
     } else {
         return null;
     }
-}
+} // end fizzBuzz
 
-console.log('3 should return FIZZ', fizzBuzz(3));
-console.log('3 should return FIZZ', fizzBuzz(36));
-console.log('15 should return FIZZBUZZ', fizzBuzz(15));
+
 
 
 
@@ -29,5 +27,6 @@ console.log('15 should return FIZZBUZZ', fizzBuzz(15));
 
 
 module.exports = fizzBuzz;
+
 
 
