@@ -14,3 +14,6 @@ function fizzBuzz(number){
 
 console.log('3 should return FIZZ', fizzBuzz(3));
 console.log('3 should return FIZZ', fizzBuzz(36));
+
+
+module.exports = fizzBuzz;
